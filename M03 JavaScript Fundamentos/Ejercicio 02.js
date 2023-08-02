@@ -2,36 +2,38 @@
 /*2️⃣ EJERCICIO 02 2️⃣*/
 
 function devolverString(string) {
-   // Debe retornar un string.
-   // Tu código:
+   const resultado = devolverString("Hola, soy un string.");
+console.log(resultado); // Salida: "Hola, soy un string."
 }
 
 // ⛔️ "X" e "Y" son números.
 
 function suma(x, y) {
-   // Retorna el resultado de su suma.
-   // Tu código:
+   const resultadosuma = suma(x+3*y);
+   console.log(resultadosuma);
 }
 
 function resta(x, y) {
-   // Retorna el resultado de la resta.
-   // Tu código:
+   const resultadoresta = x - y;
+   return resultadoresta;
 }
 
 function divide(x, y) {
-   // Retorna el resultado de su división.
-   // Tu código:
+   const resultadoDivision = x / y;
+   return resultadoDivision;
 }
 
 function multiplica(x, y) {
-   // Retorna el resultado de su multiplicación.
-   // Tu código:
+   const resultadoMultiplicacion = x * y;
+   return resultadoMultiplicacion;
 }
 
+
 function obtenerResto(x, y) {
-   // Obten el resto de la división de "x" entre "y".
-   // Tu código:
+   const resto = x % y;
+   return resto;
 }
+
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
